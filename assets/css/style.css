@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(173, 173, 252);
+}
+
+.navbar {
+    font-family: oblique, "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    padding-top: 100px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown {
+    margin-right: 20px;
+}
+
+.dropdown-menu {
+  border-radius: 45px;
+}
+
+.dropdown-item {
+  border-radius: 45px;
+}
+
+.nav-item:hover {
+  background-color: rgb(0, 146, 208);
+  border-radius: 45px;
+  padding: 3px;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
