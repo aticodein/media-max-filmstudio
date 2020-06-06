@@ -4,12 +4,6 @@
 
 
 
-
-
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -25,7 +19,6 @@
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
@@ -65,9 +58,6 @@ figure {
 }
 
 
-
-
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -92,6 +82,7 @@ body {
 .navbar {
     font-family: oblique, "Comic Sans MS", cursive, sans-serif;
     font-size: 24px;
+    padding: 8px;
 }
 
 h1 {
@@ -170,14 +161,6 @@ h1 {
     min-height: 200px;
 }
 
-.flexbox-container2 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(81, 27, 209);
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
 
 /*------------------ Spinning card ------------*/
 
