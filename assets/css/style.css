@@ -169,65 +169,7 @@ h1 {
     margin: 0px;
 }
 
-.card {
-    width: 100%;
-    
-}
-
-.card__content {
-    text-align: center;
-    position: relative;
-    transition: transform 3s;
-    background: pink;
-    transform-style: preserve-3d;
-    height: 200px;
-}
-
-.card:hover .card__content {
-    transform: rotateY(.5turn);
-}
-
-.card__front,
-.card__back {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 2em;
-    transform-style: preserve-3d;
-}
-
-.card__title {
-    font-size: 2.5em;
-    transform: translateZ(150px);
-    
-}
-
-.card__subtitle {
-    font-size: 1em;
-    transform: translateZ(100px);
-    
-}
-
-.arrow {
-    font-size: 2em;
-}
-.fa-arrow-circle-right {
-    transform: translateZ(80px);
-}
-
-.card__body {
-    transform: translateZ(80px);
-}
-
-.card__back {
-    transform: rotateY(.5turn);
-    background: lightskyblue;
-
-}
-
-/*------------------Spinning car 2 -----------------*/
+/*------------------Spinning card 2 -----------------*/
 
 .card2 {
     width: 100%;
@@ -348,6 +290,68 @@ h1 {
 }
 
 .card__back3 {
+    transform: rotateY(.5turn);
+    background: lightskyblue;
+
+}
+
+/*------------------ Spinning card 4------------*/
+
+
+.card4 {
+    width: 100%;
+    
+}
+
+.card__content4 {
+    text-align: center;
+    position: relative;
+    transition: transform 3s;
+    background: pink;
+    transform-style: preserve-3d;
+    height: 200px;
+}
+
+.card4:hover .card__content4 {
+    transform: rotateY(.5turn);
+}
+
+.card__front4,
+.card__back4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+}
+
+.card__title4 {
+    font-size: 2.5em;
+    transform: translateZ(150px);
+    
+}
+
+.card__subtitle4 {
+    font-size: 1em;
+    transform: translateZ(100px);
+    
+}
+
+.arrow4 {
+    font-size: 2em;
+}
+.fa-arrow-circle-left {
+    transform: translateZ(80px);
+}
+
+.card__body4 {
+    transform: translateZ(80px);
+   
+}
+
+.card__back4 {
     transform: rotateY(.5turn);
     background: lightskyblue;
 
