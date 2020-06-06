@@ -138,3 +138,77 @@ h1 {
     border-radius: 45px;
     padding-top: 2px;
 }
+/* ----------------------Animated card -------------*/
+
+/*------------------ Flexbox container and item ------------*/
+
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.flexbox-item{
+    width: 250px;
+    margin: 10px;
+    background-color: green;
+    border: solid 1px black;
+
+}
+
+.flexbox-item1 {
+    min-height: 100px;
+}
+
+.flexbox-item2 {
+    min-height: 200px;
+}
+
+.flexbox-item3 {
+    min-height: 250px;
+}
+
+.flexbox-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(81, 27, 209);
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+/*------------------ Spinning card ------------*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+}
+
+.card__content {
+    text-align: center;
+    position: relative;
+    transition: transform 3s;
+}
+
+.card:hover .card__content {
+    transform: rotate(90deg);
+}
+
+.card__front,
+.card__back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
