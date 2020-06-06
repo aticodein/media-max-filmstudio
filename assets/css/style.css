@@ -146,7 +146,6 @@ h1 {
 .flexbox-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: green;
     justify-content: space-around;
     align-items: center;
     align-content: center;
@@ -160,7 +159,7 @@ h1 {
 }
 
 .flexbox-item1 {
-    min-height: 100px;
+    min-height: 200px;
 }
 
 .flexbox-item2 {
@@ -168,7 +167,7 @@ h1 {
 }
 
 .flexbox-item3 {
-    min-height: 250px;
+    min-height: 200px;
 }
 
 .flexbox-container2 {
@@ -244,3 +243,130 @@ h1 {
     background: lightskyblue;
 
 }
+
+/*------------------Spinning car 2 -----------------*/
+
+.card2 {
+    width: 100%;
+    
+}
+
+.card__content2 {
+    text-align: center;
+    position: relative;
+    transition: transform 3s;
+    background: pink;
+    transform-style: preserve-3d;
+    height: 200px;
+}
+
+.card2:hover .card__content2 {
+    transform: rotateX(.5turn);
+}
+
+.card__front2,
+.card__back2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+}
+
+.card__title2 {
+    font-size: 2.5em;
+    transform: translateZ(150px);
+    
+}
+
+.card__subtitle2 {
+    font-size: 1em;
+    transform: translateZ(100px);
+    
+}
+
+.arrow2 {
+    font-size: 2em;
+}
+.fa-arrow-circle-up {
+    transform: translateZ(80px);
+}
+
+.card__body2 {
+    transform: translateZ(80px);
+}
+
+.card__body2 {
+    transform:translateZ(80px);
+}
+
+.card__back2 {
+    transform: rotateY(.5turn);
+    background: lightskyblue;
+
+}
+
+/*------------------ Spinning card 3------------*/
+
+
+.card3 {
+    width: 100%;
+    
+}
+
+.card__content3 {
+    text-align: center;
+    position: relative;
+    transition: transform 3s;
+    background: pink;
+    transform-style: preserve-3d;
+    height: 200px;
+}
+
+.card3:hover .card__content3 {
+    transform: rotateY(-.5turn);
+}
+
+.card__front3,
+.card__back3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+}
+
+.card__title3 {
+    font-size: 2.5em;
+    transform: translateZ(150px);
+    
+}
+
+.card__subtitle3 {
+    font-size: 1em;
+    transform: translateZ(100px);
+    
+}
+
+.arrow3 {
+    font-size: 2em;
+}
+.fa-arrow-circle-left {
+    transform: translateZ(80px);
+}
+
+.card__body3 {
+    transform: rotateX(.5turn), translateZ(80px);
+}
+
+.card__back3 {
+    transform: rotateY(.5turn);
+    background: lightskyblue;
+
+}
+
+
