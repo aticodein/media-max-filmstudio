@@ -299,7 +299,7 @@ h1 {
 }
 
 .card__body2 {
-    transform:translateZ(80px);
+    transform:translateZ(80px) rotateX(180deg) rotateY(180deg);
 }
 
 .card__back2 {
@@ -360,7 +360,8 @@ h1 {
 }
 
 .card__body3 {
-    transform: rotateX(.5turn), translateZ(80px);
+    transform: translateZ(80px);
+   
 }
 
 .card__back3 {
@@ -368,5 +369,3 @@ h1 {
     background: lightskyblue;
 
 }
-
-
