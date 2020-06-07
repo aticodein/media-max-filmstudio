@@ -437,3 +437,46 @@ h1 {
     0%{transform: translateY(0);}
     100%{transform: translateY(-30px);}
 }
+
+/*-------------------------Footer-------------------*/
+
+.footer {
+    background: #f8f8f8;
+
+}
+
+.fa-car-side {
+    font-size: 2.5em;
+    color: blue;
+    padding: 4px;
+}
+
+.fa-car-side:hover {
+    color: #ff9800;
+}
+
+.fa-envelope-open-text {
+    font-size: 2.5em;
+    color: blue;
+    padding: 4px;
+}
+
+.fa-envelope-open-text:hover {
+    color: #ff9800;
+}
+
+.fa-facebook {
+    font-size: 2.5em;
+    color: blue;
+    padding: 4px;
+}
+
+.fa-facebook:hover {
+    color: #ff9800;
+}
+
+.fa-copyright {
+font-size: 1em;
+    color: black;
+    padding: 2px;
+}
