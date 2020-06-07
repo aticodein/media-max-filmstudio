@@ -133,7 +133,18 @@ h1 {
     border-radius: 45px;
     padding-top: 2px;
 }
-/* ----------------------Animated card -------------*/
+/* ----------------------Carousel -------------*/
+.flexbox-container-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-item-carousel {
+    max-width: 1070px;
+    max-height: 450px;
+}
+
+
 
 /*------------------ Flexbox container and item ------------*/
 
@@ -445,10 +456,12 @@ h1 {
 
 }
 
+/*-------------------------Social Icons-------------------*/
 .fa-car-side {
     font-size: 2.5em;
     color: blue;
     padding: 4px;
+    margin-left: 5px; 
 }
 
 .fa-car-side:hover {
@@ -459,6 +472,8 @@ h1 {
     font-size: 2.5em;
     color: blue;
     padding: 4px;
+    margin-right: 5px; 
+    margin-left: 5px; 
 }
 
 .fa-envelope-open-text:hover {
@@ -469,14 +484,21 @@ h1 {
     font-size: 2.5em;
     color: blue;
     padding: 4px;
+    margin-right: 5px;
 }
 
 .fa-facebook:hover {
     color: #ff9800;
 }
 
-.fa-copyright {
-font-size: 1em;
-    color: black;
+/*-------------------------Logo Copyright-------------------*/
+
+.copyright {
     padding: 2px;
+    margin-left: 20px;
+    
+}
+
+.footer-logo {
+   padding: 2px;
 }
