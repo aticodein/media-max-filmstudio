@@ -277,18 +277,20 @@ h1 {
     transform: translateZ(80px);
 }
 
-.card__body2 {
-    transform: translateZ(80px);
-}
+
 
 .card__body2 {
     transform:translateZ(80px) rotateX(180deg) rotateY(180deg);
+    padding-top: 0px;
 }
 
 .card__back2 {
     transform: rotateY(.5turn);
     background: lightskyblue;
 
+}
+.card__btn2 {
+   transform:translateZ(60px) rotateX(180deg) rotateY(180deg); 
 }
 
 /*------------------ Spinning card 3------------*/
@@ -353,7 +355,7 @@ h1 {
 
 }
 
-/*------------------ Spinning card 4------------*/
+/*------First card------------ Spinning card 4------------*/
 
 
 .card4 {
@@ -400,7 +402,7 @@ h1 {
 .arrow4 {
     font-size: 2em;
 }
-.fa-arrow-circle-left {
+.fa-arrow-circle-right {
     transform: translateZ(80px);
 }
 
