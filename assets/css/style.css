@@ -7,7 +7,7 @@
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
-  }
+}
 @media (max-width: 768px) {
   
 }
@@ -78,17 +78,45 @@ Extra (xl) large devices (large desktops, 1200px and up)
 body {
     background-color: rgb(173, 173, 252);
 }
-
+/*-------------------------------------NAVBAR--------------------------------------------*/
 .navbar {
     font-family: oblique, "Comic Sans MS", cursive, sans-serif;
     font-size: 24px;
     padding: 8px;
 }
 
-.logo img {
-  width: 100%;
+@media (min-width: 950px) {
+
+    .navbar-brand.brand {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        z-index: -20;
+        
+    }
+}
+
+@media (max-width: 750px) {
+
+    .navbar-brand.brand {
+        position: relative;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        z-index: -20;
+        
+    }
+  
+}
+
+
+.logo {
+
+  max-width: 170px;
   height: auto;
 }
+
 h1 {
     padding-top: 100px;
     font-family: 'Arial Narrow', Arial, sans-serif;
@@ -100,6 +128,7 @@ h1 {
 
 .dropdown-menu {
   border-radius: 45px;
+  max-width: 400px;
 }
 
 .dropdown-item {
@@ -485,6 +514,7 @@ h1 {
     color: blue;
     padding: 4px;
     margin-right: 5px;
+    margin-left: 10px;
 }
 
 .fa-facebook:hover {
