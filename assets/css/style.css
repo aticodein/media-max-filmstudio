@@ -552,3 +552,30 @@ h1 {
 .footer-logo {
    padding: 2px;
 }
+
+/*----------------Referenciak-Logo-Slider-----------------*/
+
+.ref-logo-slider {
+    display: flex;
+    border:10px solid #555;
+    height: 25vh;
+}
+
+.box {
+  width: 300px;  
+}
+
+.box1 {
+    
+    background: gold;
+}
+
+.box2 {
+    background: green;
+
+}
+
+.box3 {
+    background: red;
+    
+}
