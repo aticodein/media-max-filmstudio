@@ -293,6 +293,10 @@ h1 {
    transform:translateZ(60px) rotateX(180deg) rotateY(180deg); 
 }
 
+.card__btn2 .btn-primary:hover {
+    background: #ff9800;
+}
+
 /*------------------ Spinning card 3------------*/
 
 
