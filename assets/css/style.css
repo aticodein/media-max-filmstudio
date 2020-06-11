@@ -557,25 +557,44 @@ h1 {
 
 .ref-logo-slider {
     display: flex;
-    border:10px solid #555;
-    height: 25vh;
+    border:0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
 .box {
-  width: 300px;  
+
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px;
+    height: 12vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .box1 {
-    
-    background: gold;
+    background-image: url("/assets/images/mediamax_logo2.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border: 1px solid black;
+    width: 300px;
 }
 
 .box2 {
-    background: green;
+    background-image: url("/assets/images/mediamax_logo2.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border: 1px solid black;
+    width: 300px;
 
 }
 
 .box3 {
-    background: red;
+    background-image: url("/assets/images/mediamax_logo2.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border: 1px solid black;
+    width: 300px;
     
 }
