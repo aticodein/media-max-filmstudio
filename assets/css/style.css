@@ -601,5 +601,33 @@ h1 {
     width: 300px;
     height: 23vh;
     text-align: center;
-    
+      
 }
+
+/*-------------------------------------Munkatarsak-------------------------------------*/
+
+.foto-round{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #f8f8f8;
+    border-radius: 50%;
+    background-image: url("/assets/images/Noemi.jpg")
+}
+
+.foto-round-aniko{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #f8f8f8;
+    border-radius: 50%;
+    background-image: url("/assets/images/Aniko.jpg")
+} 
+
+
+
+                      
