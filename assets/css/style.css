@@ -614,7 +614,7 @@ h1 {
     height: 200px;
     border: 2px solid #f8f8f8;
     border-radius: 50%;
-    background-image: url("/assets/images/Noemi.jpg")
+    background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Noemi4.jpg")
 }
 
 .foto-round-aniko{
@@ -625,7 +625,7 @@ h1 {
     height: 200px;
     border: 2px solid #f8f8f8;
     border-radius: 50%;
-    background-image: url("/assets/images/Aniko.jpg")
+    background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Aniko2.jpg")
 } 
 
 
