@@ -606,7 +606,7 @@ h1 {
 
 /*-------------------------------------Munkatarsak-------------------------------------*/
 
-.foto-round{
+.foto-round {
     display: block;
     text-align: center;
     margin: auto;
@@ -617,7 +617,7 @@ h1 {
     background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Noemi4.jpg")
 }
 
-.foto-round-aniko{
+.foto-round-aniko {
     display: block;
     text-align: center;
     margin: auto;
@@ -628,6 +628,16 @@ h1 {
     background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Aniko2.jpg")
 } 
 
+.foto-round-erika {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #f8f8f8;
+    border-radius: 50%;
+    background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Erika3.jpg")
+}
 
 
                       
