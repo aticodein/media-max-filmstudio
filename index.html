@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/80bf5222e8.js" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="../assets/js/script.js"></script>
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -21,7 +23,7 @@
     <!--------------------------------------NAVBAR------------------------------------->
 
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand brand" href="index.html"><img class="logo" src="assets/images/mediamax_logo2.png" alt="logo"></a>
+        <a id="contentLogo" class="navbar-brand brand main-none" href="index.html"><img class="logo" src="assets/images/mediamax_logo2.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,21 +36,17 @@
             <li class="nav-item">
                 <a class="nav-link" href="#email">Kapcsolat </a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Továbbiak
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="rolunk.html">Rólunk </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="szolgaltatas.html">Szolgáltatásaink </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="referenciak.html">Referenciák </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="galeria.html">Galéria </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="munkatarsak.html">Munkatársaink </a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="szolgaltatas.html">Szolgáltatásaink </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="referenciak.html">Partnereink </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Referenciák </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="munkatarsak.html">Munkatársaink </a>
             </li>
             </ul>
         </div>
@@ -59,19 +57,27 @@
     
 
     <!--------------------------------------Jumbotron---Text---------------------------------->
-    <div class="container-fluid">
-    <div class="row welcome text-center">
-    <div class="col-12">
-    <h1 class="justify-content-center" style="background: white;>
-      <a class="content-logo" href="index.html"><img class="content-logo" src="assets/images/mediamax_logo2_nagy2.png" alt="logo"></a>
-    </h1>
+    <section class="section1">
+    <div class="container-flex">
+    <div class="row justify-content-center col-12 content-logo">
     
-    
+    <div class="justify-content-center" style="background: white;>
+      <a href="index.html"><img src="assets/images/mediamax_logo2_nagy.png" alt="logo"></a>
     </div>
     </div>
     </div>
+    </section>
 
+    <button onclick="myFunction()">Click me</button>
 
+    <p id="demo"></p>
+
+    <p>A function is triggered when the button is clicked. The function outputs some text in a p element with id="demo".</p>
+
+    <p>Scroll down this page</p>
+
+    <p id="myP" style="position:fixed">When you have scrolled 50 pixels from the top of this page, add the class "test" (yellow background color) to this paragraph. Scroll up again to remove the class.
+    </p>
 
     <div class="container-fluid">
     <div class="row welcome text-center">
@@ -340,8 +346,7 @@ A  jó reklám a fogyasztónak  szól, kreatív, figyelemfelkeltő !</p>
       </div>
     </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <script src="assets/js/script.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

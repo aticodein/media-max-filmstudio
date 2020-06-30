@@ -113,7 +113,7 @@ body {
 
 .logo {
 
-  max-width: 170px;
+  max-width: 150px;
   height: auto;
 }
 
@@ -122,39 +122,34 @@ h1 {
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
-.dropdown {
-    margin-right: 20px;
-}
-
-.dropdown-menu {
-  border-radius: 45px;
-  max-width: 400px;
-}
-
-.dropdown-item {
-  border-radius: 45px;
-  
-}
-
 .nav-item:hover {
   background-color: rgb(0, 146, 208);
   border-radius: 45px;
   padding: 0px;
-  max-width: 160px;
 }
 
-.dropdown-item:hover {
-    text-decoration: underline;
-    background-color: transparent;
-}
 .navbar-toggler {
     position: relative;
 }
 
-/*------------------------------Content Logo-------------------------------------------------*/
+/*------------------------------Content Logo and nav logo appear-------------------------------------------------*/
 
 .content-logo {
-    background: transparent;
+  margin-top: 60px;
+}
+
+.fade-out {
+   opacity: 0;
+   transition: opacity 500ms ease-in-out;
+}
+
+.fade-in.appear {
+    transition: opacity 500ms ease-in;
+    opacity: 1;
+}
+
+.main-none {
+    display: none;
 }
 
 
@@ -647,5 +642,6 @@ h1 {
     background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Erika3.jpg")
 }
 
-
-                      
+.test {
+  background-color: yellow;
+}
