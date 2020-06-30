@@ -91,7 +91,7 @@ body {
         position: absolute;
         width: 100%;
         left: 0;
-        text-align: center;
+        text-align: left;
         z-index: -20;
         
     }
@@ -150,6 +150,14 @@ h1 {
 .navbar-toggler {
     position: relative;
 }
+
+/*------------------------------Content Logo-------------------------------------------------*/
+
+.content-logo {
+    background: transparent;
+}
+
+
 
 /*------------------------------Jumbotron-------------------------------------------------*/
 .jumbotron.jumbotron-fluid {
