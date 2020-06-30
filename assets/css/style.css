@@ -83,10 +83,15 @@ body {
     font-family: oblique, "Comic Sans MS", cursive, sans-serif;
     font-size: 24px;
     padding-top:8px;
+    height: 79px;
 }
 
-@media (min-width: 950px) {
+.nav-link {
+        font-size: 16px;
+    }
 
+@media (min-width: 950px) {
+    
     .navbar-brand.brand {
         position: absolute;
         width: 100%;
@@ -96,9 +101,6 @@ body {
         
     }
 
-    .nav-link {
-        font-size: 18px;
-    }
 }
 
 @media (max-width: 750px) {
@@ -121,8 +123,10 @@ body {
   height: auto;
 }
 
+/*-------------------------------------Text-------------------------------------------*/
 h1 {
-    padding-top: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -130,6 +134,7 @@ h1 {
   background-color: rgb(0, 146, 208);
   border-radius: 45px;
   padding: 0px;
+  max-width: 250px;
 }
 
 .navbar-toggler {
@@ -139,7 +144,7 @@ h1 {
 /*------------------------------Content Logo and nav logo appear-------------------------------------------------*/
 
 .content-logo {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .fade-out {
@@ -168,7 +173,7 @@ h1 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 150px;
+  margin-top: 100px;
   border-radius: 35px;
 }
 
@@ -646,6 +651,3 @@ h1 {
     background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Erika3.jpg")
 }
 
-.test {
-  background-color: yellow;
-}
