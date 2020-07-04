@@ -76,7 +76,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 */
 
 body {
-    background-color: rgb(173, 173, 252);
+    background-color: #e6e8e6;
 }
 /*-------------------------------------NAVBAR--------------------------------------------*/
 .navbar {
@@ -164,8 +164,28 @@ h1 {
 
 
 /*------------------------------Jumbotron-------------------------------------------------*/
+
+.rolunk {
+    
+    background-color: #ea5d35;
+    color: white;
+
+
+}
+
+.rolunk-tobb {
+    background-color: #ced0ce;
+    color: black;
+}
+
+.szolgáltatásainkról {
+    background-color: #ea5d35;
+    color: white;
+}
+
 .jumbotron.jumbotron-fluid {
     margin-bottom: 0px;
+    height: 500px;
 
 }
 
@@ -304,7 +324,7 @@ h1 {
     text-align: center;
     position: relative;
     transition: transform 3s;
-    background: pink;
+    background: #ea5d35;
     transform-style: preserve-3d;
     height: 200px;
 }
@@ -375,7 +395,7 @@ h1 {
     text-align: center;
     position: relative;
     transition: transform 3s;
-    background: pink;
+    background: #ea5d35;
     transform-style: preserve-3d;
     height: 200px;
 }
@@ -421,7 +441,7 @@ h1 {
 
 .card__back3 {
     transform: rotateY(.5turn);
-    background: lightskyblue;
+    background: #ced0ce;
 
 }
 
@@ -437,9 +457,10 @@ h1 {
     text-align: center;
     position: relative;
     transition: transform 3s;
-    background: pink;
+    background: #ea5d35;
     transform-style: preserve-3d;
     height: 200px;
+    color: white;
 }
 
 .card4:hover .card__content4 {
@@ -483,7 +504,7 @@ h1 {
 
 .card__back4 {
     transform: rotateY(.5turn);
-    background: lightskyblue;
+    background: #696969;
 
 }
 
