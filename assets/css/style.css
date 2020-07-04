@@ -186,6 +186,60 @@ h1 {
     padding: 0;
 }
 
+/*------------------------------Logo slider------------------------------------------------*/
+
+
+.logo-slider {
+    display: flex;
+    width: 90%;
+    height: 100px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 10px 20px -10px rgb(0,0,0,0.8);
+    margin: 3px;
+    overflow: hidden;
+}
+
+.slide-items {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-content: center;
+    animation: slideshow 16s linear infinite;
+    
+}
+
+.slide-items img {
+    margin-top: 10px;
+    height: 80px;
+    padding: 0 30px 0 30px;
+} 
+
+@keyframes slideshow {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-1000%);}
+
+}
+
+.logo-slider::before, .logo-slider::after {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, white 0%, rgb(255,255,255,0) 100%);
+    z-index: 2;
+}
+
+.logo-slider::before {
+    left: 0;
+    top: 0;
+}
+
+.logo-slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
 
 
 /* ----------------------Carousel -------------*/
