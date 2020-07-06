@@ -1,8 +1,4 @@
 
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
-
 window.onscroll = function() {myFunction2()};
 
 function myFunction2() {
