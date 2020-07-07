@@ -542,15 +542,72 @@ Partnereinkkel stabil munkakapcsolatot alakítottunk ki az évek alatt,  mert gy
     </div>
     <div class="col-md-7 register-right">
       <h2>Iratkozz fel itt</h2>
-      <div class="register-form"></div>
+
+      <!------------<div class="register-form">
       <div class="form-group">
       <input type="text" class="form-control" placeholder="Név">
       </div>
-      
       <div class="form-group">
       <input type="email" class="form-control" placeholder="Email cím">
       <button type="button" class="btn btn-primary">Feliratkozom</button>
       </div>
+      </div>------>
+
+      <!-- WebGalamb Hírlevélkód eleje -->
+<form class="register-form" id="feliratkozo_form_3" method="post" action="https://p50x1.wgx.hu/subscriber.php?g=3&f=a7e966f7b7" target="_blank">
+  <table class="form-group" border="0" cellspacing="0" cellpadding="4">
+   <tr> 
+    <td  align="right">E-mail cím:<font color="red">*</font></td>
+    <td>
+    <input class="form-control" type="email" name="subscr" />
+	 
+    </td>
+   </tr>
+   <tr> 
+    <td  align="right">Név:<font color="red">*</font></td>
+    <td>
+     <input class="form-control" type="text" name="f_9" />  
+    </td>
+   </tr>
+   <tr> 
+    <td  align="right">Üzenet:<font color="red">*</font></td>
+    <td>
+     <textarea class="form-control" name="f_11"></textarea> 
+    </td>
+   </tr>
+   <tr> 
+    <td class="btn btn-primary" align="center" colspan="2"><input type="submit" name=sub value="Feliratkozás" onClick="if(!fvalidate_3('feliratkozo_form_3')) return false;" /></td>
+   </tr>
+ </table>
+</form>
+<!-- WebGalamb Hírlevélkód - form vége  
+     JavaScript ellenőrző kód eleje -->
+<script type="text/javascript">
+function fvalidate_3(fname)
+{
+   var formx=document.getElementById(fname);
+   var hiba='';
+   var mregexp=/^([a-zA-Z0-9_\.\-\+&])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,6})+$/;
+   if(!mregexp.test(formx.subscr.value))
+   {
+     hiba='* Hibás a megadott e-mail cím!';
+     formx.subscr.focus();
+   }
+
+   if (!formx.f_9.value)
+     {
+   hiba+= (hiba?"\n":'')+'* Név nincs megadva!';
+   formx.f_9.focus();
+     }
+   if (!formx.f_11.value)
+     {
+   hiba+= (hiba?"\n":'')+'* Üzenet nincs megadva!';
+   formx.f_11.focus();
+     }
+if(hiba)alert(hiba); else return true;
+}
+</script>
+<!-- JavaScript ellenőrző kód vége -->
       
     </div>
     </div>
