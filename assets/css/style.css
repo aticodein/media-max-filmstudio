@@ -271,15 +271,15 @@ h1 {
 
 /* ----------------------Spinning Carousel -------------*/
 
-.slideshow {
+.spinshow {
     margin: 0 auto;
-    padding-top: 50px;
-    height: 700px;
-    background: skyblue;
+    padding-top: 2px;
+    height: 300px;
+    background: #ced0ce;
     box-sizing: border-box;
 }
 
-.content {
+.spinshow-content {
     margin: auto;
     width: 190px;
     perspective: 1000px;
@@ -287,7 +287,7 @@ h1 {
     padding-top: 80px;
 }
 
-.content-carrousel {
+.spinshow-content-carrousel {
     width: 100%;
     position: absolute;
     float: right;
@@ -295,12 +295,12 @@ h1 {
     transform-style: preserve-3d;
 }
 
-.content-carrousel:hover {
+.spinshow-content-carrousel:hover {
     animation-play-state: paused;
     cursor: pointer;
 }
 
-.content-carrousel figure {
+.spinshow-content-carrousel figure {
     width: 100%;
     height: 120px;
     border: 1px solid #4d444d;
@@ -308,39 +308,39 @@ h1 {
     position: absolute;
 }
 
-.content-carrousel figure:nth-child(1) {
+.spinshow-content-carrousel figure:nth-child(1) {
     transform: rotateY(0deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(2) {
+.spinshow-content-carrousel figure:nth-child(2) {
     transform: rotateY(40deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(3) {
+.spinshow-content-carrousel figure:nth-child(3) {
     transform: rotateY(80deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(4) {
+.spinshow-content-carrousel figure:nth-child(4) {
     transform: rotateY(120deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(5) {
+.spinshow-content-carrousel figure:nth-child(5) {
     transform: rotateY(160deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(6) {
+.spinshow-content-carrousel figure:nth-child(6) {
     transform: rotateY(200deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(7) {
+.spinshow-content-carrousel figure:nth-child(7) {
     transform: rotateY(240deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(8) {
+.spinshow-content-carrousel figure:nth-child(8) {
     transform: rotateY(280deg) translateZ(300px);
 }
 
-.content-carrousel figure:nth-child(9) {
+.spinshow-content-carrousel figure:nth-child(9) {
     transform: rotateY(320deg) translateZ(300px);
 }
 
@@ -350,14 +350,14 @@ h1 {
     border-radius: 2px;
 }
 
-.content-carrousel img {
+.spinshow-content-carrousel img {
     image-rendering: auto;
     transition: all 300ms;
     width: 100%;
     height: 100%;
 }
 
-.content-carrousel img:hover {
+.spinshow-content-carrousel img:hover {
     transform: scale(1.2);
     transition: all 300ms;
 }
