@@ -272,7 +272,7 @@ h1 {
 /* ----------------------Spinning Carousel -------------*/
 
 .spinshow {
-    margin: 0 auto;
+    margin: 0;
     padding-top: 2px;
     height: 300px;
     background: #ced0ce;
@@ -284,7 +284,7 @@ h1 {
     width: 190px;
     perspective: 1000px;
     position: relative;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .spinshow-content-carrousel {
@@ -808,7 +808,7 @@ h1 {
     height: 200px;
     border: 2px solid #f8f8f8;
     border-radius: 50%;
-    background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Aniko2.jpg")
+    background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/aniko4.jpg")
 } 
 
 .foto-round-erika {
