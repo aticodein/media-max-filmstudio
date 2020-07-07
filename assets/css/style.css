@@ -822,3 +822,45 @@ h1 {
     background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/Erika3.jpg")
 }
 
+/*-------------------------------------Video gallery-------------------------------------*/
+.video-wrapper {
+    text-align: center;
+}
+
+.video-wrapper h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top:150px;
+
+}
+
+.video-wrapper h3 {
+    text-align: center;
+}
+
+.gal-but {
+    margin: 20px;
+    color: black;
+
+}
+
+.video-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.video {
+    padding: 0 20px 20px;
+}
+
+.single-video {
+    max-width: 400px;
+    height: auto;
+}
+
+
+
