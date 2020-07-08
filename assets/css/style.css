@@ -77,9 +77,13 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 body {
     background-color: #e6e8e6;
+    overflow-x: hidden;
+    
 }
 /*-------------------------------------NAVBAR--------------------------------------------*/
 .navbar {
+    display: flex;
+    width: 100%;
     font-family: oblique, "Comic Sans MS", cursive, sans-serif;
     font-size: 24px;
     padding-top:8px;
@@ -174,6 +178,7 @@ h1 {
     
     background-color: #ea5d35;
     color: white;
+    
 
 
 }
@@ -879,5 +884,5 @@ h1 {
     height: auto;
 }
 
-
+/*-------------------------------------Smoot scroll-------------------------------------*/
 
