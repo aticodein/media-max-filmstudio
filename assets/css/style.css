@@ -842,7 +842,16 @@ h1 {
     background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/magdi2.jpg")
 }
 
-
+.foto-round-eva {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #f8f8f8;
+    border-radius: 50%;
+    background-image: url("https://ati-ecommerce.s3-eu-west-1.amazonaws.com/media/images/eva2.jpg")
+}
 
 /*-------------------------------------Video gallery-------------------------------------*/
 .video-wrapper {
