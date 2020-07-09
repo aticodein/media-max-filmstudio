@@ -733,6 +733,18 @@ h1 {
     color: #ff9800;
 }
 
+.fa-wrench {
+    font-size: 2.5em;
+    color: blue;
+    padding: 4px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.fa-wrench:hover {
+    color: #ff9800;
+}
+
 /*-------------------------Logo Copyright-------------------*/
 
 .copyright {
