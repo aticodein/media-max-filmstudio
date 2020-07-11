@@ -61,6 +61,7 @@ body {
     color: white;
     border-radius: 45px;
     border: solid 2px white;
+    animation: Slide_Up 4.3s ease;
 }
 .bovebben:hover {
     background: white;
@@ -149,6 +150,32 @@ body {
 }
 
 /*-------------------------------------Text-------------------------------------------*/
+
+@keyframes Slide_Up{
+   0% {
+       transform: translateY(250px);
+   }
+   100% {
+       transform: translateY(0px);
+   }
+}
+
+.inner > h1 {
+    animation: Slide_Up 1.4s ease;
+}
+
+.inner > .lead {
+    animation: Slide_Up 2.5s ease;
+}
+
+.inner > p {
+    animation: Slide_Up 3.2s ease;
+}
+
+.inner > .span {
+    animation: Slide_Up 4s ease;
+}
+
 h1 {
     margin-top: 10px;
     padding-top: 10px;
