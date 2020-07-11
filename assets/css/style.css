@@ -153,7 +153,7 @@ body {
 
 @keyframes Slide_Up{
    0% {
-       transform: translateY(250px);
+       transform: translateY(400px);
    }
    100% {
        transform: translateY(0px);
