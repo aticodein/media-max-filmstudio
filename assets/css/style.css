@@ -80,6 +80,36 @@ body {
     overflow-x: hidden;
     
 }
+
+/*-------------------------------------Buttons--------------------------------------------*/
+.btn {
+    border-radius: 45px;
+    padding-top: 2px;
+}
+
+
+.bovebben {
+    color: white;
+    border-radius: 45px;
+    border: solid 2px white;
+}
+.bovebben:hover {
+    background: white;
+}
+
+.gallery-button {
+    padding-top: 2px;
+    color: black;
+    border: solid 2px black;
+    border-radius: 45px;
+}
+
+.gallery-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
 /*-------------------------------------NAVBAR--------------------------------------------*/
 .navbar {
     display: flex;
@@ -207,10 +237,7 @@ h1 {
   border-radius: 35px;
 }
 
-.btn {
-    border-radius: 45px;
-    padding-top: 2px;
-}
+
 
 .nav-link {
     padding: 0;
@@ -759,11 +786,18 @@ h1 {
 
 /*----------------Referenciak-Logo-Slider-----------------*/
 
+.spinshow {
+    display: flex;
+    border:0px;
+    flex-wrap: wrap;
+}
+
 .ref-logo-slider {
     display: flex;
     border:0px;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow: hidden;
     
 }
 
