@@ -118,6 +118,7 @@ body {
     font-size: 24px;
     padding-top:8px;
     height: 79px;
+    background: white;
 }
 
 .nav-link {
@@ -321,14 +322,14 @@ h1 {
     width: 190px;
     perspective: 1000px;
     position: relative;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .spinshow-content-carrousel {
     width: 100%;
     position: absolute;
     float: right;
-    animation: rotar 15s infinite linear;
+    animation: rotar 20s infinite linear;
     transform-style: preserve-3d;
 }
 
