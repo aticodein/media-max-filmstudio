@@ -36,3 +36,21 @@ if(hiba)alert(hiba); else return true;
 }
 
 /*--WebGalamb Hírlevélkód JavaScript ellenőrző kód vége --*/
+
+/*--  Cookie JS --*/
+
+const cookieContainer = document.querySelector(".cookie-container")
+const cookieButton = document.querySelector(".cookie-button")
+
+cookieButton.addEventListener("click", () => {
+    cookieContainer.classList.remove("active");
+    localStorage.setItem("cookieBannerDisplayed", "true");
+});
+
+setTimeout( () => {
+    if (!localStorage.getItem("cookieBannerDisplayed"))
+      cookieContainer.classList.add("active");
+}, 3000);
+
+
+
