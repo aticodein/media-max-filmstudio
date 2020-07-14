@@ -11,26 +11,26 @@ function myFunction2() {
 
 /*-- WebGalamb Hírlevélkód - form JavaScript ellenőrző kód eleje --*/
 
-function fvalidate_3(fname)
+function fvalidate_5(fname)
 {
    var formx=document.getElementById(fname);
    var hiba='';
    var mregexp=/^([a-zA-Z0-9_\.\-\+&])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,6})+$/;
    if(!mregexp.test(formx.subscr.value))
    {
-     hiba='* Kérem adja meg vagy javítsa ki az e-mail címét!';
+     hiba='* Hibás a megadott e-mail cím!';
      formx.subscr.focus();
    }
 
-   if (!formx.f_9.value)
+   if (!formx.f_14.value)
      {
-   hiba+= (hiba?"\n":'')+'* Kérem adja meg nevét!';
-   formx.f_9.focus();
+   hiba+= (hiba?"\n":'')+'* Név nincs megadva!';
+   formx.f_14.focus();
      }
-   if (!formx.f_11.value)
+   if (!formx.f_15.value)
      {
-   hiba+= (hiba?"\n":'')+'* Kérem írjon rövid üzenetet!';
-   formx.f_11.focus();
+   hiba+= (hiba?"\n":'')+'* Rövid Üzenet nincs megadva!';
+   formx.f_15.focus();
      }
 if(hiba)alert(hiba); else return true;
 }
